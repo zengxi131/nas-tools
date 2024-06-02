@@ -17,8 +17,8 @@ RUN apk add --no-cache libffi-dev \
 ENV LANG="C.UTF-8" \
     TZ="Asia/Shanghai" \
     NASTOOL_CONFIG="/config/config.yaml" \
-    NASTOOL_AUTO_UPDATE=true \
-    NASTOOL_CN_UPDATE=true \
+    NASTOOL_AUTO_UPDATE=false \
+    NASTOOL_CN_UPDATE=false \
     NASTOOL_VERSION=master \
     PS1="\u@\h:\w \$ " \
     REPO_URL="https://github.com/jxxghp/nas-tools.git" \
